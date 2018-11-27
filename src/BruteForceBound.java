@@ -1,5 +1,3 @@
-package ch.kressibucher.travelingSalesman;
-
 import java.util.Arrays;
 
 /**
@@ -16,7 +14,7 @@ import java.util.Arrays;
  * - [SOLVING THE TRAVELLING SALESMAN PROBLEM USING THE BRANCH AND BOUND METHOD](https://hrcak.srce.hr/file/236378)
  *
  */
-public class BruetForceBound {
+public class BruteForceBound {
 
     final static int INF = Integer.MAX_VALUE;
     final static int FIRST_VERTEX = 0;
@@ -37,7 +35,7 @@ public class BruetForceBound {
     // vertices already visited by curr_path
     private boolean[] visited;
 
-    public BruetForceBound(int[][] adj) {
+    public BruteForceBound(int[][] adj) {
         this.adj = adj;
         adj_len = adj.length;
         visited = new boolean[adj_len]; 

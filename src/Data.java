@@ -1,5 +1,3 @@
-package ch.kressibucher.travelingSalesman;
-
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -48,7 +46,7 @@ public class Data {
 		    {   0, 400, INF, INF, INF, INF, 200, INF},
 		    {   0, INF, INF, 219, 142, 200, INF, INF},
 		    {   0, INF, INF, 144, INF, INF, INF, INF}
-		}
+		});
 
 		/* minimum cost: does not exist
 		 */
@@ -93,7 +91,7 @@ public class Data {
 		   { 0,  8,  4,  9,  9},
 		   { 8,  0,  6,  7, 10},
 		   { 4,  6,  0,  5,  6},
-		   { 9,  7,  5,  0,  4}
+		   { 9,  7,  5,  0,  4},
 		   { 9, 10,  6,  4,  0}
 		});
 
