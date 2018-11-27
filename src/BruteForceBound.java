@@ -49,6 +49,68 @@ public class BruteForceBound {
         curr_path[0] = FIRST_VERTEX;
     }
 
+    public static void main(String[] args) {
+
+        // // cost 19?
+        // int[][] adj = {
+        //  {INF, 5,    INF, 6, 5,  4},
+        //  {5, INF, 2, 4,  3,  INF},
+        //  {INF, 2,    INF, 1, INF, INF},
+        //  {6, 4,  1,  INF, 7, INF},
+        //  {5, 3,  INF, 7, INF, 3},
+        //  {4, INF, INF, INF, 3,   INF}
+        // };
+
+        // cost 34
+        int[][] adj = {
+            { INF, 10, 8,   9,  7 },
+            { 10, INF, 10, 5,   6 },
+            { 8,    10, INF, 8, 9 },
+            { 9,    5,  8,  INF, 6 },
+            { 7,    6,  9,  6,  INF }
+        };
+
+        // // cost 16
+        // int[][] adj = {
+        //  {INF, 3,    1,  5,  8},
+        //  {3, INF, 6, 7,  9},
+        //  {1, 6,  INF, 4, 2},
+        //  {5, 7,  4,  INF, 3},
+        //  {8, 9,  2,  3,  INF}
+        // };
+
+        // // cost 8
+        // int[][] adj = {
+        //  {INF, 2,    1,  INF},
+        //  {2, INF, 4, 3},
+        //  {1, 4,  INF, 2},
+        //  {INF, 3,    2,  INF}
+        // };
+
+
+        // // cost 12
+        // int[][] adj = {
+        //  {INF, 5,    4,  3},
+        //  {3, INF, 8, 2},
+        //  {5, 3,  INF, 9},
+        //  {6, 4,  3,  INF}
+        // };
+
+        // // cost 8
+        // int[][] adj = {
+        //  {INF, 2,    1,  INF},
+        //  {2, INF, 4, 3},
+        //  {1, 4,  INF, 2},
+        //  {INF, 3,    2,  INF}
+        // };
+
+        BruteForceBound tsp = new BruteForceBound(adj);
+        tsp.solve();
+
+        System.out.println("Cost: "+tsp.best_cost);
+        System.out.println("Path: "+Arrays.toString(tsp.best_path));
+    }
+
     public void solve() {
         // bonud includes all edges twice. before being
         // compared, it has to be divided by two.
