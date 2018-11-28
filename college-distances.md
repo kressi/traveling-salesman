@@ -1,4 +1,5 @@
-                | Arizona State | Brigham Young | Brown | Colorado | Duke | Florida State | Louisiana | Louisville | Michigan | New Mexico | North Dakota | Notre Dame | Ohio | Oklahoma | Oregon | Pitt | Stanford | Texas A&M | Wisconsin | Yale
+|               | Arizona State | Brigham Young | Brown | Colorado | Duke | Florida State | Louisiana | Louisville | Michigan | New Mexico | North Dakota | Notre Dame | Ohio | Oklahoma | Oregon | Pitt | Stanford | Texas A&M | Wisconsin | Yale |
+|---------------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
 | Arizona State |    0 |  648 | 2625 |  549 | 2185 | 1898 | 1458 | 1752 | 1963 |  427 | 1743 | 1817 | 1899 | 1060 | 1148 | 2084 |  732 | 1095 | 1725 | 2524 |
 | Brigham Young |  648 |    0 | 2363 |  481 | 2129 | 2030 | 1641 | 1594 | 1638 |  557 | 1214 | 1492 | 1710 | 1126 |  825 | 1861 |  811 | 1195 | 1375 | 2262 |
 | Brown         | 2625 | 2362 |    0 | 1965 |  669 | 1274 | 1541 |  920 |  744 | 2172 | 1623 |  875 |  720 | 1595 | 3085 |  543 | 3113 | 1734 | 1111 |  103 |
